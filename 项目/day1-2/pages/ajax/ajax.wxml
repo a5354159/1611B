@@ -1,0 +1,6 @@
+<!--pages/ajax/ajax.wxml-->
+<text>pages/ajax/ajax.wxml</text>
+<view wx:for="{{list}}" >
+<image src='{{item.content.object.photo90}}'></image>
+    <view></view>
+</view>

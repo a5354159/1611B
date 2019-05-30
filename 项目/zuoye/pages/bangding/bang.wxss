@@ -1,0 +1,28 @@
+/* pages/bangding/bang.wxss */
+page{
+    width:100%;
+    height:100%;
+}
+
+.inp{
+    width:100%;
+    height:500rpx;
+}
+input{
+    width: 750rpx;
+    height:80rpx;
+    border-bottom:1px solid #ccc;
+    padding-top: 40rpx 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+.btn{
+    margin-top:100rpx;
+    width: 300rpx;
+    height:80rpx;
+    background-color: firebrick;
+    color:#eeeeee;
+    text-align: center;
+    line-height: 80rpx;
+    border-radius: 40rpx;
+}

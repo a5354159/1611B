@@ -1,0 +1,21 @@
+
+<template name="item">
+  <view class='lis'>
+    <view>{{name}}</view>
+    <progress percent="{{num}}" class='progress' />
+    <view class='btn'>
+      <icon class='cancel' type='cancel' size="23" bindtap='del' data-id="{{id}}"></icon>
+      <icon  class='success' type="success" size="23" bindtap='add' data-id="{{id}}"></icon>
+    </view>
+  </view>
+  
+</template>
+<view class='container'>
+  <view class='titpo'>请开始投票</view>
+  <view class='contion'>
+    <block wx:for="{{list}}" wx:key="{{index}}">
+      <template is="item" data="{{name:item.name,num:item.num,id:item.id}}"></template>
+    </block>
+  </view>
+  <view class='maxvote'>票数最高：{{maxnum}}</view>
+</view>

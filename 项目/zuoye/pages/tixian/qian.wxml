@@ -1,0 +1,6 @@
+<!--pages/tixian/qian.wxml-->
+<view class="header">
+    <view class="head">
+        <button>招商银行</button>
+    </view>
+</view>

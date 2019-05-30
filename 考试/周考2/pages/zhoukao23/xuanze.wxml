@@ -1,0 +1,37 @@
+<view>
+  <view>+选择卡面</view>
+  <view>
+
+    <view class='sls'>
+      <scroll-view class="scroll-view_H" scroll-x style="width: 100%">
+        <view class='box' >
+          <block wx:for='{{images}}' key="{{index}}">
+            <view class="{{selectActive===index?'active':''}}" bindtap='click' data-index="{{index}}" data-item='{{item}}'>
+              <image src='{{item.img}}'></image>
+            </view>
+          </block>
+        </view>
+
+      </scroll-view>
+    </view>
+
+  </view>
+  <view>+选择礼品</view>
+  <view class='boxcontent'>
+    <view wx:for="{{list}}" key="{{index}}">
+      <view class="{{selectActive2===index?'active':''}}" bindtap='xuan' data-index="{{index}}" data-item='{{item}}' >
+        <view class='top'>
+          <view>{{item.name}}</view>
+          <view>{{item.picdux}}</view>
+        </view>
+        <view class='botom'>
+          <view>-</view>
+          <view>+</view>
+        </view>
+      </view>
+    </view>
+  </view>
+     <view>
+        <view>{{newpicdux}}</view><button bindtap='onjump'>购买</button>
+     </view>
+</view>

@@ -1,0 +1,9 @@
+<view class='seach'>
+    <input type='text' bindinput='inp' value='{{val}}' placeholder='请输入关键字'></input>
+</view>
+<view>
+  搜索历史
+</view>
+<view wx:for="{{arr}}">
+  <view  bindtap='jump' data-item='{{item}}'>{{item}}</view>
+</view>

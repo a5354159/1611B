@@ -1,0 +1,8 @@
+/* components/tabTop/tabTop.wxss */
+.san{
+    width:0;
+    height:0;
+    border:20rpx solid transparent;
+    border-bottom:20rpx solid #fff;
+    margin: 0 auto;
+}

@@ -1,0 +1,29 @@
+<accounts class='main'>
+
+  <view slot='aa'>
+    <view>
+      <view>
+        <view bindtap="jump2">
+         银行卡：{{text}}
+        </view>
+        <view>
+          <label>提取金额:
+            <input 
+             placeholder='可提取500元，冻结金额200.50元'
+             bindinput='inp' 
+             value='{{val}}'>
+            </input>
+          </label>
+        </view>
+      </view>
+      <view>
+        <view></view>
+        <view></view>
+        <view></view>
+        <button type='warn' bindtap='jumps'>确认</button>
+      </view>
+    </view>
+  </view>
+
+
+</accounts>

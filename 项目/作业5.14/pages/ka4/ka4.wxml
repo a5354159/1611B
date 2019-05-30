@@ -1,0 +1,5 @@
+<!--pages/ka4/ka4.wxml-->
+<!-- <text>pages/ka4/ka4.wxml</text> -->
+<view>银行卡：{{sm}}</view>
+<view>金额:{{mani}}</view>
+<button bindtap='jump5'>确定</button>

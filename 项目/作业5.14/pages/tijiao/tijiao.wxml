@@ -1,0 +1,6 @@
+<!--pages/tijiao/tijiao.wxml-->
+<!-- <text>pages/tijiao/tijiao.wxml</text> -->
+
+
+<view class='ti'>提交成功</view>
+<button bindtap='jump1'>返回</button>

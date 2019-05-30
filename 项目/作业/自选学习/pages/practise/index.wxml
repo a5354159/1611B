@@ -1,0 +1,41 @@
+<view class='main'>
+  <view class='header'>
+    <input type='text' placeholder='请搜索科目'></input>
+    <view>取消</view>
+  </view>
+  <view class='seaction'>
+    <view class='boxs'>
+      <view class="tit">
+        <view bindtap='class1' bindtap='tapChange' data-show='1' class="{{flag?'active':''}}">公共科目</view>
+        <view bindtap='class2' bindtap='tapChange' data-show='2' class="{{!flag?'active':''}}">专业科目</view>
+      </view>
+    </view>
+    <scroll-view scroll-y class='ass'>
+      <view class="content">
+        <view>
+          <checkbox-group bindchange="checkboxChange1" class='bisa'>
+            <label class="checkbox" wx:for="{{newArr.public}}" wx:key="{{index}}" data-index="{{index}}" hidden='{{!flag}}'>
+              <view class='mini'>
+                <view>{{item.name}}</view>
+                <checkbox value="{{index}}" />
+              </view>
+            </label>
+          </checkbox-group>
+        </view>
+        <view>
+          <checkbox-group bindchange="checkboxChange2" class='bisa'>
+            <label class="checkbox" wx:for="{{newArr.major}}" wx:key="{{index}}" data-index="{{index}}" hidden='{{flag}}'>
+              <view class='mini'>
+                <view>{{item.name}}</view>
+                <checkbox value="{{index}}" />
+              </view>
+            </label>
+          </checkbox-group>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class='footer'>
+    <button style="background:#00f;color:#fff" bindtap='jump'>保存</button>
+  </view>
+</view>

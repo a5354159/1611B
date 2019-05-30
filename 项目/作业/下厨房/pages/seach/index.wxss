@@ -1,0 +1,14 @@
+/* pages/seach/index.wxss */
+.seach{
+  background: #ccc;
+  height: 80rpx;
+
+  box-sizing: border-box;
+  border-radius:30rpx; 
+}
+.seach>input{
+  height: 100%;
+  font-size:35rpx; 
+  padding: 0 50rpx;
+  box-sizing: border-box;
+}

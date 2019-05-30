@@ -1,0 +1,6 @@
+/* pages/day5zuoye5/index.wxss */
+image{
+    width:80rpx;
+    height:80rpx; 
+    margin: 30rpx;
+}

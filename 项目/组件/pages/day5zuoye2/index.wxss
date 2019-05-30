@@ -1,0 +1,18 @@
+/* pages/day5zuoye2/index.wxss */
+image{
+    width:46rpx;
+    height:46rpx;
+     vertical-align: middle;
+}
+.item{
+    display:flex;
+    justify-content:space-between;
+}
+.item>view{
+    display:flex;
+    width:100%;
+    height120rpx;
+}
+.item>view>image{
+    margin:0 20rpx;
+}

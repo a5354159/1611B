@@ -1,0 +1,14 @@
+
+<view wx:for="{{list}}" wx:key="{{val.name}}" wx:for-item="val">
+  <text class='tex'>
+{{val.name}}
+</text>
+  <button class='btn' bindtap='click' data-child="{{val}}">{{val.name}}</button>
+</view>
+<view wx:if="{{name}}">
+  <text>{{name}}</text>
+</view>
+<view>
+  今天吃什么
+  <view></view>
+</view>

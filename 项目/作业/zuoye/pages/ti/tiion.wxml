@@ -1,0 +1,30 @@
+<!--pages/ti/tiion.wxml-->
+<view class="head">
+	<view class="box">
+		银行卡
+		<button bindtap="jump">
+			<input
+			 type='number'
+			 placeholder='请选择银行'
+			 bindinput='inputChange'
+			 value="{{city}}"
+			/>
+		</button>
+	</view>
+	<view class="box1">
+		体现金额
+		<button>
+			<input type='number' placeholder='可提现500元,冻结金额200.50元' bindinput='inputChange' />
+		</button>
+	</view>
+
+	<navigator
+	 class="nav_navigate"
+	 url="/pages/bangding/bang?city={{city}}"
+	 hover-class="navigator-hover"
+	 open-type="navigate"
+	>
+		<button class="btn">确定</button>
+	</navigator>
+</view>
+

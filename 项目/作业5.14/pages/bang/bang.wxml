@@ -1,0 +1,7 @@
+<!--pages/bang/bang.wxml-->
+<!-- <text>pages/bang/bang.wxml</text> -->
+
+<view class='ying'>为保证你的资金安全，只能提现到本人账户的储蓄卡</view>
+<view>银行卡：{{sm}}储蓄卡</view>
+
+<button bindtap='manis'>确认</button>

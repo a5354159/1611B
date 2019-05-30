@@ -1,0 +1,10 @@
+/* pages/bang/bang.wxss */
+
+.ying{
+  width: 100%;
+  height: 60rpx;
+  background: #ccc;
+  font-size: 28rpx;
+  text-align: center;
+  line-height: 60rpx;
+}

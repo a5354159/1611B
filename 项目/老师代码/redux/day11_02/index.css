@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+.normal{
+  margin: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  line-height: 100rpx;
+  text-align: center;
+  border: 3rpx solid #ccc;
+  color: #3777ff;
+}
+
+.select{
+  margin: 20rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  line-height: 100rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #3777ff;
+  border: 3rpx solid #3777ff;
+}
+

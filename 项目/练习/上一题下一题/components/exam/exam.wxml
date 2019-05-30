@@ -1,0 +1,16 @@
+<view>
+  <view>{{title}}</view>
+  <checkbox-group bindchange="checkboxChange" wx:if="{{type==='add'}}">
+  <label class="checkbox" wx:for="{{arr}}">
+    <checkbox value="{{item.content}}" checked="{{item.checkod}}" />
+    {{item.content}}
+  </label>
+</checkbox-group>
+<radio-group class="radio-group" bindchange="radioChange" wx:else>
+  <label class="radio" wx:for="{{arr}}">
+    <radio value="{{item.content}}" checked="{{item.checkod}}" />
+    {{item.content}}
+  </label>
+</radio-group>
+</view>
+<slot/>

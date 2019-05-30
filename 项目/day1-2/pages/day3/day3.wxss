@@ -1,0 +1,5 @@
+/* pages/day3/day3.wxss */
+.chockBoxs{
+    display:block;
+    margin:30rpx 0;
+}

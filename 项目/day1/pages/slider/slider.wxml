@@ -1,0 +1,18 @@
+<view class="wrapper">
+  <view class='main'>
+    <view wx:for="{{list}}" wx:key="{{index}}">
+      <view class='{{item.class}}'>
+        <image class='mainimage' src='{{item.img}}'></image>
+        <view style='font-size:{{fontsize}}rpx;'>{{item.text}}</view>
+      </view>
+    </view>
+  </view>
+  <view class='footer'>
+    <view class='astyle'>
+      <view class='mina'>A</view>
+      <view class='standard'>标准</view>
+      <view class='maxa'>A</view>
+    </view>
+    <slider bindchange="slider2change" step="1" min="30" max="50" />
+  </view>
+</view>

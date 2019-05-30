@@ -1,0 +1,28 @@
+.title{
+    margin-top: 82rpx;
+    text-align: center;
+    border-bottom:3rpx solid #ccc; 
+    width:90%; 
+    margin: 5rpx auto;
+    padding: 50rpx 0;
+    box-sizing:border-box; 
+    color: #00f;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40rpx;
+    box-sizing: border-box;
+}
+.content>view{
+    height: 60rpx;
+    border-bottom:3rpx solid #ccc; 
+    line-height: 80rpx;
+    padding: 20rpx 0; 
+    font-size:30rpx; 
+}
+.content>view>image{
+    width: 20rpx;
+    height: 20rpx;
+    padding: 0 20rpx;
+}

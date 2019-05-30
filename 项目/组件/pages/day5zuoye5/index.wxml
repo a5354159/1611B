@@ -1,0 +1,8 @@
+<accounts>
+   <view slot='aa'>
+        <view>
+            <image src="{{icon}}" />{{text}}
+        </view>
+        <view>提取金额：{{val}}</view>
+    </view>
+</accounts>

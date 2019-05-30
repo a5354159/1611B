@@ -1,0 +1,4 @@
+<!--pages/router1/index.wxml-->
+<text>pages/router1/index.wxml</text>
+
+    <button bindtap="jump">第一页跳到页面2</button>

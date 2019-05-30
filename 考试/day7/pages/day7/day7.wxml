@@ -1,0 +1,6 @@
+<view>
+    <view wx:for="{{list}}" wx:key="{{index}}" class='box'>
+    <view><image src='{{item.icon}}'></image> {{item.name}} {{item.time}}</view>
+     <view>{{item.text}}</view> 
+    </view>
+</view>

@@ -1,0 +1,17 @@
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cont view {
+  width: 30%;
+  height: 70rpx;
+  margin: 5rpx;
+  text-align: center;
+  line-height: 70rpx;
+  background: #ccc;
+  border-radius:35rpx; 
+}
+.cont view.greed{
+  background: #0f0f;
+}

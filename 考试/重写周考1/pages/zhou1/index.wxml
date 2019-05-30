@@ -1,0 +1,22 @@
+<scroll-view scroll-x class='scroll'>
+  <view class='top'>
+    <block wx:for="{{list}}" wx:key="{{item.id}}">
+      <tab-top name='{{item.name}}' 
+      icon='{{item.icon}}' 
+      class='tabTopx' 
+      bindtap="handlClick" 
+      data-index='{{index}}'
+      flag='{{item.id==selectIndex}}'
+      ></tab-top>
+    </block>
+  </view>
+    
+</scroll-view>
+<swiper style='height:600rpx' bindchange='change' current="{{selectIndex}}">
+  <block wx:for="{{list}}" wx:key="index">
+    <swiper-item>
+      <import src="app.wxml" />
+      <template is="app" data="{{...obj}}"></template>
+    </swiper-item>
+  </block>
+</swiper>

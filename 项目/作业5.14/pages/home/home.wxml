@@ -1,0 +1,11 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<view class='box'>
+    <text bindtap='jump'>银行卡: {{yinhang.item}}</text>
+</view>
+<view class='text'>
+    体现金额:
+    <input class='input' placeholder='请输入提现金额' value='{{}}' bindinput='an'></input>
+</view>
+
+<button bindtap='jump3'>确定</button>

@@ -1,0 +1,4 @@
+<view class='contant'>
+  <view>为保证您的资金安全，只能提现到本人开户的储蓄卡</view>
+  <slot name='aa' class='contant-box'></slot>
+</view>

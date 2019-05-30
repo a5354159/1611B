@@ -1,0 +1,8 @@
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{nameArr}}">
+    <view class="picker">当前选择：{{name}}</view>
+  </picker>
+  </view>
+<view>
+    <block></block>
+</view>

@@ -1,0 +1,25 @@
+/* pages/home/home.wxss */
+
+.box{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  border: 1rpx solid #ccc;
+}
+
+.text{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  /* padding: 0 15rpx; */
+  display: flex;
+  border: 1rpx solid #ccc;
+}
+
+.input{
+  width: 70%;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}

@@ -1,0 +1,10 @@
+<view>
+  <view class='inp'><input placeholder='输入手机号'></input></view>
+   <view class='inp'><input placeholder='输入6位验证码'></input><button>发送验证码</button></view>
+   <view class='xieyi'>
+     <view>未注册手机验证后自动登录</view>
+    <view>注册同意《知乎协议》《隐私政策》</view>
+   </view>
+    <button type='primary'>登录</button>
+  <view class='bot'><view>密码登录</view><view>需要帮助</view></view>  
+</view>

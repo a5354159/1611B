@@ -1,0 +1,56 @@
+/* pages/homework/homework.wxss */
+page,.wrap{
+  width: 100%;
+  height: 100%
+}
+.wrap{
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  width: 100%;
+  height: 110rpx;
+  background: #EFEFF4;
+  display: flex;
+  align-items: center;
+}
+.header input{
+  width: 90%;
+  height: 80%;
+  border-radius: 20rpx;
+  margin: 0 auto;
+  background: #E2E2E8;
+}
+.center{
+  width: 100%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.center text{
+  height: 100%;
+  line-height: 100rpx;
+}
+.add{
+  color: #7B9CF8;
+  border-bottom:#7B9CF8 solid 2rpx;
+}
+.list{
+  flex: 1;
+  height: 100%;
+  overflow: scroll;
+}
+.text{
+  width: 95%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  margin:  0 auto;
+}
+.btn{
+  width: 100%;
+  height: 100rpx;
+  background: #6046E7;
+  color: #fff;
+}

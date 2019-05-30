@@ -1,0 +1,16 @@
+<view>
+  <view>
+    <input></input>
+  </view>
+  <view class='cont'>
+    <view wx:for='{{list}}' 
+    wx:key="index" 
+    bindtap='add' 
+    data-index='{{index}}'
+    class="{{item.flag?'greed':''}}"
+    >
+      {{item.text}}
+    </view>
+
+  </view>
+</view>

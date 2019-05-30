@@ -1,0 +1,25 @@
+<view class='top'>
+  <image src="../../images/one.jpg" alt=''/>
+</view>
+
+<view class='que'>
+  <text>{{list[0]}}</text>
+  <text>{{list[1]}}</text>
+  <text>{{list[2]}}</text>
+  <!-- <text wx:for="{{list}}" wx:key="">{{item}}</text> -->
+  <button bindtap="zero">刷新</button>
+</view>
+
+<view class='all'>
+  <text wx:for="{{arrs}}" wx:key="" bindtap="adds" data-item="{{item}}">{{item}}</text>
+</view>
+
+<button class='btn' bindtap="change">画自己的画，然别人去猜</button>
+
+<view class='mosk' wx:if="{{flag}}">
+  <text>回答正确</text>
+  <view class='box'>
+    <text>{{list[0]}}{{list[1]}}{{list[2]}}</text>
+  </view>
+  <button bindtap="changes">返回</button>
+</view>

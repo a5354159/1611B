@@ -1,0 +1,17 @@
+/* pages/zhou1/index.wxss */
+.scroll{
+    background:#201D1D;
+    height:200rpx;
+}
+.top{
+    display:flex;
+    color:#fff;
+    font-size:20rpx;
+}
+.top image{
+    width:94rpx;
+    height:102rpx;
+}
+.tabTopx{
+    margin:15rpx 30rpx;
+}

@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/day5zuoye/index",
+    "pages/day5zuoye2/index",
+    "pages/day5zuoye3/index",
+    "pages/day5zuoye4/index",
+    "pages/day5zuoye5/index",  
+    "pages/day4/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E3464E",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "accounts":"/components/accounts/accounts"
+  }
+}

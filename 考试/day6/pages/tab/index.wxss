@@ -1,0 +1,5 @@
+/* pages/tab/index.wxss */
+.box{
+  display: flex;
+  justify-content: space-around;
+}

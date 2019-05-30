@@ -1,0 +1,14 @@
+/* pages/day7/day7.wxss */
+image{
+  width: 30rpx;
+  height: 30rpx;
+}
+.box{
+  padding: 0 20rpx;
+  box-sizing: border-box;
+  background: #909090;
+}
+.box>view:nth-child(2){
+  padding: 0 35rpx;
+  box-sizing: border-box;
+}

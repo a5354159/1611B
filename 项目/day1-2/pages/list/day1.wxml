@@ -1,0 +1,29 @@
+<!--pages/list/day1.wxml-->
+<view class='box'>
+    <view class='box1'></view>
+</view>
+<view class='col'>
+  <view class='pink'>{{lis[0]}}</view>
+  <view class='pink'>{{lis[1]}}</view>
+  <view class='pink'>{{lis[2]}}</view>
+  <button bindtap="zero">刷新</button>
+</view> 
+<view class='texs'>
+    <view 
+      wx:for="{{list}}" 
+      wx:key="{{item.name}}" 
+      bindtap='adds'
+      data-item='{{item}}'
+    >{{item.name}}</view>
+</view>
+
+<view class='footer'>
+  <button type='warn' bindtap='change'>花自己的画，让别人猜去吧</button>
+</view> 
+<view class='mosk' wx:if="{{flag}}">
+  <text>回答正确</text>
+  <view class='bigbox'>
+    <text>111111111</text>
+  </view>
+  <button bindtap="changes">返回</button>
+</view>

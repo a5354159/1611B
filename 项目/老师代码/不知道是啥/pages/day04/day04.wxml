@@ -1,0 +1,7 @@
+<!--pages/day04/day04.wxml-->
+<text>pages/day04/day04.wxml</text>
+<child-child propParentToChild="{{name}}" bindchildEvent="receiver"></child-child>
+<view>{{childValue}}</view>
+<child-child aaa='{{parsn}}'></child-child>
+<navigator open-type='navigateTo' url='/pages/index/index' >我想跳到index页面</navigator>
+<navigator open-type='redirect' url='/pages/index/index' >重新跳回index页面</navigator>

@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/practise/index",
+    "pages/practise2/index",
+    "pages/practise3/index",
+    "pages/practise4/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "selectedcolor":"#00f",
+      "pagePath": "pages/practise/index",
+      "text": "真题练习"
+    },{
+      "pagePath": "pages/practise2/index",
+      "text": "视频课程"
+    },{
+      "pagePath": "pages/practise3/index",
+      "text": "学习中心"
+    },{
+      "pagePath": "pages/practise4/index",
+      "text": "我的账号"
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+
+
+.line {
+  background-color: black;
+  width: 100%;
+  height: 3rpx;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.order{
+  width: 100rpx;
+  height: 100rpx;
+  border: 3rpx solid #ccc;
+  text-align: center;
+  line-height: 100rpx;
+  border-radius: 50%;
+  margin: 20rpx;
+
+}
+
+.card_btn{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}

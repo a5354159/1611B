@@ -1,0 +1,14 @@
+<view class='wrap'>
+  <view class='top'>
+    <image src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1557929081378&di=0146abd9bf647e8b4f0a75905c94e5ca&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01f37255e1f53f32f875a1326d1f27.jpg%402o.jpg'></image>
+  </view>
+  <view class='center'>
+    <input type='text' value='今天吃点什么呢' bindtap='jump'></input>
+    <view class='content'>
+      <view class='box' wx:for="{{list}}" wx:key="{{index}}">
+        <image src='{{item.content.object.photo}}'></image>
+        <text>{{item.content.object.name}}</text>
+      </view>
+    </view>
+  </view>
+</view>

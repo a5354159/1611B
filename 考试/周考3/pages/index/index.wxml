@@ -1,0 +1,17 @@
+<view class='main'>
+  <view class='seaction'>
+    <view wx:if='{{list.length>0}}'>
+      <view wx:for="{{list}}">
+        <view>{{item.name}}</view>
+        <view>{{item.phol}}</view>
+        <view>{{item.address}}</view>
+        <view>{{item.xinAddress}}</view>
+      </view>
+    </view>
+    <view wx:else>{{msg}}</view>
+  </view>
+  <view class='footer'>
+    <button bindtap='jump'>新增收货地址</button>
+  </view>
+
+</view>

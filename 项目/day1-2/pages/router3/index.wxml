@@ -1,0 +1,4 @@
+<!--pages/router3/index.wxml-->
+<view wx:for='{{cityList}}' wx:key='{{item}}'>
+    <view bindtap="selectcity" data-item='{{item}}'>{{item}}</view>
+</view>

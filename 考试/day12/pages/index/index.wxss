@@ -1,0 +1,28 @@
+/* pages/index/index.wxss */
+page{
+  width: 100%;
+  height: 100%;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%
+}
+.tit{
+  display: flex;
+  flex-wrap:wrap; 
+}
+image{
+  width: 302rpx;
+  height: 164rpx;
+  margin: 35rpx;
+}
+.cont{
+  flex: 1;
+}
+.cont>image{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}

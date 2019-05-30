@@ -1,0 +1,5 @@
+<view class="title">
+    <image src="{{icon}}"></image>
+    <view>{{name}}</view>
+</view>
+<view  wx:if="{{flag}}" class='san'></view>

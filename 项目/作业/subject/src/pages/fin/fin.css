@@ -1,0 +1,10 @@
+.every{
+    width: 160rpx;
+    height: 160rpx;
+    display: inline-block;
+    border: 1px solid #ccc;
+    font-size: 35rpx;
+    text-align: center;
+    line-height: 160rpx;
+    border-radius: 50%;
+}

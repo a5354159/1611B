@@ -1,0 +1,9 @@
+/* components/accounts/accounts.wxss */
+.contant{
+  font-size: 32rpx;
+  height: 60rpx;
+  background: #F9E3BF;
+  line-height: 60rpx;
+  padding: 0 15rpx;
+  box-sizing: border-box;
+}

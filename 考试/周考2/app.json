@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/zhoukao23/xuanze",
+    "pages/zhoukao2/index",
+    "pages/zhoukao22/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

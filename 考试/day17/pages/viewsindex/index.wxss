@@ -1,0 +1,41 @@
+page, .main {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .headers {
+  width: 100%;
+  height: 330rpx;
+}
+
+.main .headers image {
+  width: 100%;
+  height: 100%;
+}
+
+.section {
+  flex: 1;
+}
+
+.scroll-date {
+  width: 100%;
+  height: 82rxp;
+  display: flex;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.scroll-date view {
+  width: 30%;
+  height: 82rxp;
+  font-size:10rpx; 
+}
+.scrolsx{
+  width:1500rpx;
+}

@@ -1,0 +1,7 @@
+<view>
+    <view>
+      <image src="{{obj.img}}"></image>
+    </view>
+      <view>{{obj.newpicdux}}</view>
+      <view>购买时间{{time}}</view>
+</view>

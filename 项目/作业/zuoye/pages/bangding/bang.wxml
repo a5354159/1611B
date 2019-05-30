@@ -1,0 +1,39 @@
+<!--pages/bangding/bang.wxml-->
+<view class="inp">
+	<view class="yh">
+		银行卡
+		<button bindtap="yinhangka">
+    <view>{{city}}-----储蓄卡</view>
+			<!-- <input type='number' placeholder='请选择银行' bindinput='inputChange' value="{{pink}}"/> -->
+		</button>
+	</view>
+	<view class="yh">
+		银行卡号
+		<input type='number' placeholder='请输入银行卡号' bindinput='inputChange' />
+	</view>
+	<view class="yh">
+		姓名
+		<input type='number' placeholder='王小明' bindinput='inputChange' />
+	</view>
+	<view class="yh">
+		城市
+		<button bindtap="chengshi">
+			<input
+			 type='number'
+			 placeholder='请选择开户行所在城市'
+			 bindinput='inputChange'
+			 value="{{city}}"
+			/>
+		</button>
+	</view>
+
+	<navigator
+	 class="nav_navigate"
+	 url="/pages/tixian/qian"
+	 hover-class="navigator-hover"
+	 open-type="navigate"
+	>
+		<button class="btn">确定</button>
+	</navigator>
+</view>
+

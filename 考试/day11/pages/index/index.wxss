@@ -1,0 +1,35 @@
+/* pages/index/index.wxss */
+.inp>input{
+  width: 100%;
+  height: 80rpx;
+  border-bottom:3rpx solid #ccc; 
+}
+.inp{
+  padding: 20rpx;
+  box-sizing: border-box;
+}
+.inp:nth-of-type(2){
+  display:flex;
+}
+.inp:nth-of-type(2)>input{
+  flex: 7;
+}
+.inp:nth-of-type(2)>button{
+   flex: 3;
+  width: 100rpx;
+  height: 80rpx;
+}
+.xieyi{
+  width: 100%;
+  height: 150rpx;
+  font-size: 30rpx;
+  text-align: center;
+}
+.xieyi>view{
+  line-height: 60rpx;
+}
+.bot{
+  display: flex;
+  justify-content: space-between;
+  color: #00f;
+}

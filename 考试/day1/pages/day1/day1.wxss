@@ -1,0 +1,32 @@
+/* pages/day1/day1.wxss */
+body,html,page,.main{
+width: 100%;
+height: 100%;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #E9E9E9;
+}
+.main>.box{
+  width: 100%;
+  flex:1;
+}
+.main>.box>.boxs{
+  width: 100%;
+  height: 500rpx;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+}
+.main>.box>.boxs>view{
+  flex: 1;
+  border-bottom:1px solid #ccc; 
+}
+.main>.footer{
+  width: 100%;
+  background: #313131;
+  color: #D7D7D7;
+}

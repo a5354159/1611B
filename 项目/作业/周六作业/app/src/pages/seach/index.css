@@ -1,0 +1,29 @@
+.seach,page{
+    width: 100%;
+    height: 100%;
+}
+.seach{
+    display: flex;
+    flex-direction: column;
+}
+.seach-Input{
+    width: 100%;
+   
+}
+.seach-Input>view{
+    height: 60rpx;
+    margin: 0 80rpx;
+    display: flex;
+    align-items: center;
+}
+.seach-Input>view>input{
+    padding: 0 30rpx;   
+    background: #ccc;
+    border-radius:30rpx; 
+    flex: 1;
+    margin:0 20rpx; 
+    font-size:30rpx; 
+}
+.seach-Input>view>view{
+    font-size:30rpx; 
+}

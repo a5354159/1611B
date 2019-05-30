@@ -1,0 +1,19 @@
+<!--pages/zhouzuoye/index.wxml-->
+<view class='main'>
+    <view class='conts'>
+        <view class='contexts'>
+            <view class='{{item.class}}' wx:for='{{list}}' wx:key='{{item.id}}'>
+                <image src="{{item.img}}"></image>
+                 <view style='font-size:{{fontSizi}}rpx'>{{item.text}}</view>   
+            </view>
+        </view>
+    </view>
+    <view class='footer'>
+        <view class='astyle'>
+            <view class='mina'>A</view>
+            <view class='standard'>标准</view>
+            <view class='maxa'>A</view>
+        </view>
+        <slider bindchanging="slider2change" step="1" min="30" max="50" />
+  </view>
+</view>

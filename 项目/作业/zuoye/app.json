@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/ti/tiion",
+    "pages/xuanze/xuan",
+    "pages/bangding/bang",
+    "pages/chengshi/cheng",
+    "pages/tixian/qian",
+    "pages/tixianjieguo/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E3464E",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

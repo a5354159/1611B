@@ -1,0 +1,18 @@
+.shopp{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+.shopp>view{
+    width: 40%;
+    padding: 0 20rpx;
+}
+.shopp>view image{
+    width: 300rpx;
+    height: 300rpx;
+}
+.pinjia{
+    display: flex;
+    justify-content: space-between;
+}

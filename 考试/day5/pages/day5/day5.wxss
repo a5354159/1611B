@@ -1,0 +1,14 @@
+/* pages/day5/day5.wxss */
+.box{
+
+  background: #ccc;
+}
+.box>view{
+  display: flex;
+  justify-content: space-between;
+  height: 80rpx;
+  border-bottom:1rpx solid #ccc; 
+  background: #fff;
+  margin: 30rpx 0;
+  align-items: center;
+}

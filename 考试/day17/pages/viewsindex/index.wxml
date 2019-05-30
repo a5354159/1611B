@@ -1,0 +1,44 @@
+<view class='main'>
+  <view class='headers'>
+    <image src='/images/banner.png'></image>
+  </view>
+  <view class='section'>
+    <scroll-view scroll-x class='scrolsx'>
+      <view class='scroll-date'>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+        <view>今天05月29日</view>
+      </view>
+    </scroll-view>
+
+    <view class='navs'>
+      <view>全程</view>
+      <view>品牌</view>
+      <view>特色</view>
+    </view>
+    <view class='conts-box'>
+      <view>
+        <view>
+          <view>
+            <view></view>
+            <view></view>
+            <view></view>
+          </view>
+          <view>1km</view>
+        </view>
+        <view>
+          <view></view>
+          <view></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

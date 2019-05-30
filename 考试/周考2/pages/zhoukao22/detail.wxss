@@ -1,0 +1,5 @@
+/* pages/zhoukao22/detail.wxss */
+image{
+  width: 200rpx;
+  height:200rpx;
+}

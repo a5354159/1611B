@@ -1,0 +1,24 @@
+<view class='wrapper'>
+  <view wx:for="{{list}}" wx:key="{{index}}">
+    <template is="item" data="{{name:item.name,img:item.img,id:item.id,icon:item.icon,stepnumber:item.stepnumber,index,praise:item.praise}}"></template>
+  </view>
+</view>
+
+
+<template name="item">
+  <view class='item'>
+    <view class='num'>{{index+1}}</view>
+    <image class='headportrait' src="{{img}}"></image>
+    <view class='content'>
+      <view class='contenttop'>
+        <view class='name'>{{name}}</view>
+        <view class='step'>{{stepnumber}}</view>
+      </view>
+      <progress percent="{{stepnumber*100/50000}}" color="#00FF00" />
+    </view>
+    <view class='itemright'>
+      <view>{{praise}}</view>
+      <image class='icon' src='../../images/{{icon}}' bindtap='clickpraise' data-id="{{id}}"></image>
+    </view>
+  </view>
+</template>

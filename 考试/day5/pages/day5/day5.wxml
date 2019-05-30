@@ -1,0 +1,33 @@
+<view>
+  <view wx:for="{{list}}" wx:key='item.name' class='box'>
+    <view>
+      <view>名字</view>
+      <view>{{item.name}}</view>
+    </view>
+    <view>
+      <view>头像</view>
+      <view>{{item.toppic}}</view>
+    </view>
+    <view>
+      <view>职位</view>
+      <view>{{item.boos}}</view>
+    </view>
+    <view>
+      <view>地址</view>
+      <view>{{item.address}}</view>
+    </view>
+    <view>
+      <view>自我介绍</view>
+      <view>{{item.taocl}}</view>
+    </view>
+    <view>
+      <view>兴趣领域</view>
+      <view>{{item.kus}}</view>
+    </view>
+    <view>
+      <view>工作年限</view>
+      <view>{{item.yerllowrod}}</view>
+    </view>
+  </view>
+
+</view>

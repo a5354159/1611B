@@ -1,0 +1,14 @@
+<view class='containg'>
+  <checkbox-group bindchange="checkBox">
+        <label class='chockBoxs' wx:for="{{list}}" wx:key="{{item.name}}">
+            <checkbox value='{{item.name}}'>{{item.value}}</checkbox>
+        </label>
+  </checkbox-group>
+
+</view>
+<view>
+    <view wx:for='{{arr}}' wx:key='{{arr}}'>
+    {{item}}
+    </view>
+    
+</view>

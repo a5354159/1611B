@@ -1,0 +1,8 @@
+
+<template name='item'>
+    <view wx:for="{{list}}" wx:key="{{item.id}}">
+            <view>{{item.name}}</view>
+            <view>{{item.text}}</view>
+            <view>{{item.type}}</view>
+    </view>
+</template>

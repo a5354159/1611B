@@ -1,0 +1,10 @@
+<navigator url='/pages/router3/index'>
+  
+</navigator>
+<button bindtap="jump">选择城市</button>
+<view>
+  <view>姓名：{{name}}</view>
+  <view>籍贯：{{newObj.telet}}</view>
+  <view>地址：{{newObj.address}}</view>
+  <view>您选择的城市是：{{city}}</view>
+</view>

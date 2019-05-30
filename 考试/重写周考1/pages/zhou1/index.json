@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "tab-top":"../../components/tabTop/tabTop"
+  },
+  "navigationBarTitleText": "tab切换"
+}

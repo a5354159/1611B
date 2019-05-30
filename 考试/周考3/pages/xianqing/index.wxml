@@ -1,0 +1,7 @@
+<view class='main'>
+<view class="section">
+  <picker bindchange="bindPickerChange" value="{{array}}" range="{{array}}">
+    <view class="picker">请选择</view>
+  </picker>
+</view>
+</view>

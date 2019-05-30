@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "accounts":"/components/accounts/accounts"
+  },
+  "navigationBarTitleText": "提现"
+}

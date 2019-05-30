@@ -1,0 +1,63 @@
+<view class='main'>
+  <view class='banner'>
+    <image src='../../images/banner.png'></image>
+  </view>
+  <view class='tets'>
+    <view class='let'>
+      <image src='../../images/logo.png'></image>
+      <view>每日抽奖</view>
+      <image src='../../images/logo2.png'></image>
+    </view>
+    <view class='rig'>
+      <view>规则</view>
+      <image src='../../images/pci.png'></image>
+    </view>
+  </view>
+  <view class='box'>
+
+    <view>
+      <view>
+      <image src='../../images/pic1.png'></image>
+      <view>按摩椅</view>
+      </view>
+      <view>
+       <image src='../../images/pic2.png'></image>
+       <view>按摩椅</view>
+       </view>。
+        
+      <view>
+       <image src='../../images/pic3.png'></image>
+       <view>按摩椅</view>
+       </view>
+        
+    </view>
+    <view>
+      <view>
+       <image src='../../images/pic4.png'></image>
+        <view>按摩椅</view>
+      </view>
+      <view></view>
+      <view>
+       <image src='../../images/pic5.png'></image>
+        <view>按摩椅</view>
+      </view>
+    </view>
+    <view>
+      <view>
+       <image src='../../images/pic6.png'></image>
+       <view>按摩椅</view>
+      </view>
+      <view>
+       <image src='../../images/pic7.png'></image>
+       <view>按摩椅</view>
+      </view>
+      <view>
+       <image src='../../images/pic8.png'></image>
+       <view>按摩椅</view>
+      </view>
+    </view>
+
+
+  </view>
+
+</view>

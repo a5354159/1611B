@@ -1,0 +1,12 @@
+<view class='main'>
+  <view class='mask'>
+    <view class='box'>
+    </view>
+  </view>
+  <view wx:for="{{list}}" wx:key="{{index}}" class='sol'>
+    <view wx:for="{{item.child}}" wx:key="{{i}}" for-index="i" for-item="v">
+      <image src='{{item.imgs}}'></image>
+      <view>{{item.text}}</view>
+    </view>
+  </view>
+</view>

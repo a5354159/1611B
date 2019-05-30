@@ -1,0 +1,79 @@
+html,body,page,.index{
+    width: 100%;
+    height: 100%;
+}
+
+.index{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    height: 382rpx;
+    background: #34C25E;
+}
+.search{
+    width: 100%;
+    height: 126rpx;  
+    box-sizing: border-box;
+    padding: 0 60rpx;
+}
+.search input{
+    background: #fff;
+    height:60rpx;
+    padding: 0 30rpx;
+    border-radius:30rpx; 
+}
+.titimg>image{
+    width: 100%;
+    height: 256rpx;
+}
+.section{
+    flex: 1;
+}
+.main-Nav{
+    width: 100%;
+    height: 200rpx;
+}
+.main-Banner{
+    width: 100%;
+    height: 272rpx;
+}
+.main-Banner image{
+    width: 100%;
+    height: 100%;
+}
+/* .main-Tab{
+    margin-top:66rpx; 
+} */
+.main-Nav{
+    margin: 30rpx 0;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-size:20rpx; 
+}
+.main-Nav image{
+    width:150rpx;
+    height: 150rpx;
+}
+.myScroll{
+    height: 1200rpx;
+}
+.NavClick{
+    width: 100%;
+    height: 88rpx;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin: 20rpx 0;
+}
+.NavClick>view{
+    font-size:32rpx; 
+}
+.NavClick>view:nth-child(1){
+    border-bottom:1px solid #34C25E; 
+    padding: 10rpx 0;
+}

@@ -1,0 +1,5 @@
+<!--pages/xuanze/xuan.wxml-->
+<view wx:for="{{cityList}}">
+	<view bindtap="selectCity" data-item="{{item}}">{{item}}</view>
+</view>
+

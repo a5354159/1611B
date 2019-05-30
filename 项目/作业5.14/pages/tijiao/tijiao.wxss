@@ -1,0 +1,6 @@
+/* pages/tijiao/tijiao.wxss */
+
+.ti{
+  font-size: 38rpx;
+  text-align: center;
+}

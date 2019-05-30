@@ -1,0 +1,23 @@
+<view class='main'>
+        <view class='tit'>
+            <view wx:for="{{arr}}" key="{{index}}">
+                  <view>
+                    <image src="{{item}}"></image>
+                  </view>
+            </view>
+        </view>
+
+
+
+        <view class='cont'>
+          <image src='../../images/bigimg.png'></image>
+        </view>
+
+
+
+
+
+
+
+
+</view> 

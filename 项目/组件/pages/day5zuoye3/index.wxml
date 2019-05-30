@@ -1,0 +1,32 @@
+
+<accounts class='main'>
+
+ <view slot='aa'>
+    <view>
+        <view>
+          <view>
+           <view class='ka'>银行卡：{{text}}-储蓄卡</view>
+          </view>
+          <view>
+            <label>银行卡号：
+            <input placeholder='请输入银行卡号' 
+            value='{{vals}}'
+            bindinput='inpt'
+            ></input>
+            </label>
+          </view>
+           <view>
+             姓名：{{name}}
+          </view>
+           <view bindtap='jumps4'>
+             城市：{{city}}
+          </view>
+        </view>
+        <view>
+          <button type='warn' bindtap="jumps">确认</button>
+        </view>
+    </view>
+  </view>
+
+   
+</accounts>

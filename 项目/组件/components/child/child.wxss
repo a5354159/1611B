@@ -1,0 +1,8 @@
+/* components/child/child.wxss */
+.box{
+  width: 300rpx;
+  height: 300rpx;
+  background: #f00f;
+  line-height: 300rpx;
+  text-align: center;
+}

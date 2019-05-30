@@ -1,0 +1,14 @@
+<view>
+  <block wx:for="{{list}}" wx:key="{{index}}">
+    <exam
+    title="{{item.title}}"
+    arr="{{item.checks}}"
+    type="{{item.type}}"
+    wx:if="{{selecttedIndex===index}}"
+    >
+      <button wx:if="{{selecttedIndex>0}}" bindtap="preve">上一题</button>
+      <button wx:if="{{selecttedIndex<list.length-1}}" bindtap="next" >下一题</button>
+      <button wx:if="{{selecttedIndex===list.length-1}}" bindtap="sub">提交</button>
+    </exam>
+  </block>
+</view>

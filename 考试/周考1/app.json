@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/zhoukao1/index",
+    "pages/zhoukao12/index",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor":"#000",
+    "color":"#fff",
+    "list": [{
+      "pagePath": "pages/zhoukao1/index",
+      "text": "满减特权",
+      "iconPath": "images/icon1.png",
+      "selectedIconPath":"images/icon1.png"
+    },{
+      "pagePath": "pages/zhoukao12/index",
+      "text": "会员特价",
+      "iconPath": "images/icon2.png",
+      "selectedIconPath": "images/icon2.png"
+    },{
+      "pagePath": "pages/zhoukao1/index",
+      "text": "积分翻倍",
+      "iconPath": "images/icon3.png",
+      "selectedIconPath": "images/icon3.png"
+    },{
+      "pagePath": "pages/zhoukao1/index",
+      "text": "积分兑换",
+      "iconPath": "images/icon4.png",
+      "selectedIconPath": "images/icon4.png"
+    },{
+      "pagePath": "pages/zhoukao1/index",
+      "text": "积分低现",
+      "iconPath": "images/icon5.png",
+      "selectedIconPath": "images/icon5.png"
+    }]
+  }
+}

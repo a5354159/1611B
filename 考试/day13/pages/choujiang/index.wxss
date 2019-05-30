@@ -1,0 +1,92 @@
+/* pages/choujiang/index.wxss */
+
+page, .main {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main>.banner {
+  width: 100%;
+  height: 316rpx;
+}
+
+.main>.banner>image {
+  width: 100%;
+  height: 100%;
+}
+
+.tets {
+  width: 100%;
+  height: 116rpx;
+  display: flex;
+  align-items: center;
+  padding: 0 60rpx;
+}
+
+.tets>.let {
+  display: flex;
+  flex: 8;
+  justify-content: center;
+}
+
+.tets>.let>image {
+  width: 100rpx;
+  height: 40rpx;
+  margin: 0 28rpx;
+}
+
+.tets>.rig {
+  display: flex;
+  flex: 2;
+  align-items: center;
+}
+
+.tets>.rig>view {
+  font-size: 36rpx;
+}
+
+.tets>.rig>image {
+  width: 24rpx;
+  height: 24rpx;
+  margin: 0 10rpx;
+}
+
+.tets>.rig>view {
+  color: #aa844f;
+  font-size: 20rpx;
+}
+
+.box {
+  width: 710rpx;
+  height: 710rpx;
+  background: #f00;
+  margin: 0 auto;
+  border-radius: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.box>view {
+  display: flex;
+}
+
+.box>view>view {
+  width: 30%;
+  height: 200rpx;
+  border: 10rpx solid #ff393c;
+  margin: 10rpx;
+  display: flex;
+  flex-direction: column;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.box>view>view image {
+  width: 120rpx;
+  height: 120rpx;
+}

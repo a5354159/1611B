@@ -1,0 +1,11 @@
+<view class='seach'>
+    <input type='text'></input>
+   <view class='wrap'>
+    <view class='content'>
+      <view class='box' wx:for="{{arr}}" wx:key="{{index}}" bindtap='jump' data-item='{{item.content.object}}'>
+        <image src='{{item.content.object.photo}}'></image>
+        <text>{{item.content.object.name}}</text>
+      </view>
+    </view>
+</view>
+</view>

@@ -1,0 +1,12 @@
+<accounts>
+   <view slot='aa'>
+         <view wx:for="{{list}}" wx:key='{{item}}' >
+            <view class='item' 
+                bindtap="sms" 
+                data-item='{{item}}'
+                >
+                <view>{{item}}</view> 
+            </view>
+          </view>
+    </view>
+</accounts>

@@ -1,0 +1,8 @@
+<!--pages/ying/ying.wxml-->
+<!-- <text>pages/ying/ying.wxml</text> -->
+
+<view class='ying'>为保证你的资金安全，只能提现到本人账户的储蓄卡</view>
+
+<view class='zhao' wx:for='{{data}}'>
+  <view class='top' bindtap='yinghangka' data-item='{{item.name}}'>{{item.name}}</view>
+</view>

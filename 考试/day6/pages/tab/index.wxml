@@ -1,0 +1,14 @@
+<view class='box'>
+    <block wx:for="{{list}}" wx:key="{{index}}">
+      <tab-tit 
+      title='{{item.title}}' 
+      bindtap='click' 
+      data-index="{{index}}">
+      
+      </tab-tit>
+    </block>
+</view> 
+<view>
+    <view>{{children.title}}</view>
+    <view>{{children.name}}</view>
+</view> 

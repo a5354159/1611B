@@ -1,0 +1,7 @@
+
+<view class='box' bindtap='onTap'>
+  这个是个组件
+</view>
+<button>
+  提交
+</button>

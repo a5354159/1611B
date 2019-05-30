@@ -1,0 +1,17 @@
+/* pages/day4/index.wxss */
+.slide-image{
+    width:100%;
+    height:100%;
+}
+.dls{
+    display:flex;
+    flex-wrap:wrap;
+    text-align:center;
+}
+.nav{
+   width:20%;  
+}
+.nav > image{
+   width:80rpx;
+   height:80rpx;
+}

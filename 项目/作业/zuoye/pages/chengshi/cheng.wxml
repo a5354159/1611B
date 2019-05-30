@@ -1,0 +1,5 @@
+<!--pages/chengshi/cheng.wxml-->
+<view wx:for="{{List}}">
+	<view bindtap='select' data-item='{{item}}'>{{item}}</view>
+</view>
+

@@ -1,0 +1,27 @@
+<!--pages/homework/homework.wxml-->
+<view class='wrap'>
+  <view class='header'>
+    <input type="text" placeholder='搜素科目'></input>
+  </view>
+  <view class='center'>  
+    <text bindtap='clcikbtn'  class='{{isShow?"add":"color"}}' >公共科目</text>
+    <text bindtap='clcikmajor' class='{{isShow?"color":"add"}}'>专业科目</text>
+  </view>
+  <view class='list' hidden='{{!isShow}}'>
+    <view wx:for="{{public}}" class='text'>
+      <text>{{item.name}}</text>
+      <radio-group class="radio-group" bindchange="radioChange" data-index="{{index}}">
+        <radio value="{{item.name}}" />
+      </radio-group>
+    </view>
+  </view>
+  <view class='list' hidden='{{isShow}}'>
+    <view wx:for="{{major}}" class='text'>
+      <text>{{item.name}}</text>
+      <radio-group class="radio-group" bindchange="radioChange" data-item="{{index}}">
+        <radio value="{{item.name}}" />
+      </radio-group>
+    </view>
+  </view>
+  <button bindtap='clcikAll' class='btn'>保存</button>
+</view>

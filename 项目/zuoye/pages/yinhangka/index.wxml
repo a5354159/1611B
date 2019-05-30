@@ -1,0 +1,7 @@
+<!--pages/yinhangka/index.wxml-->
+<!--pages/chengshi/cheng.wxml-->
+<view wx:for="{{yinhangka}}">
+	<view bindtap='yinhang' data-item='{{item}}'>{{item}}</view>
+</view>
+
+

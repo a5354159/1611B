@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/ajax/ajax",
+    "pages/prism/prism",
+    "pages/router1/index",
+    "pages/router2/index",
+    "pages/router3/index",
+    "pages/zhouzuoye/index",
+    "pages/zhouzuoye2/index",
+    "pages/day3/day3",
+    "pages/day2_griddle-game/index",
+    "pages/day2_toupiao/index",
+    "pages/day2/index",
+    "pages/list/day1",
+    "pages/day1/day1",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#0f0",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/zhouzuoye/index",
+        "text": "微信",
+         "iconPath":"images/weixin.jpg",
+         "selectedIconPath":"images/weixin1.jpg"
+      },
+      {
+        "pagePath": "pages/zhouzuoye2/index",
+        "text": "朋友圈",
+        "iconPath": "images/pengyouquan.jpg",
+        "selectedIconPath": "images/pengyouquan1.jpg"
+      }
+    ]
+  }
+}
